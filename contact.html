@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <form action="Profile.html" method="post">
+        <tr>
+            <td>
+                <label>First Name</label>
+            </td>
+            <td>
+                <input type="text" name="fname">
+            </td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+              <td> <input type="text" name="lname"></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+              <td> <input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+              <td> <input type="radio" name="gender" >Male
+            <input type="radio" name="gender">Female</td>
+        </tr>
+        <tr>
+            <td><label>Dob</label></td>
+              <td> <input type="date" name="dob" ></td>
+        </tr>
+        <tr>
+            <td><label>Time</label></td>
+              <td> <input type="time" id="appt" name="appt"
+                min="09:00" max="18:00"></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="range" name="age"></td>
+        </tr>
+
+        <tr>
+            <td>Language</td>
+            <td><input type="checkbox" name="python">Python
+                <input type="checkbox" name="java">Java
+                <input type="checkbox" name="c++">C++
+            </td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>
+                <select name="city">
+                    <option name="selectcity">Select City</option>
+                    <option name="Ahemdabad">Ahemdabad</option>
+                    <option name="Bhavnagar">Bhavnagar</option>
+                    <option name="Rajkot">Rajkot</option>    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>
